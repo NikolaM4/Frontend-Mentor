@@ -1,6 +1,6 @@
 # Frontend-Mentor
 Here are all challenges from Frontend Mentor
-Take a look at this README.md at this [link]([https://github.com/NikolaM4/Frontend-Mentor/blob/main/QR%20code%20component/](https://nikolam4.github.io/Frontend-Mentor/))
+Take a look at this README.md at this [link](https://nikolam4.github.io/Frontend-Mentor/)
 
 Newbie Challenges:
 
