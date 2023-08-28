@@ -2,4 +2,4 @@
 Here are all challenges from Frontend Mentor
 
 Newbie Challenges
-QR code component [link to repo](QR%20code%20component/index.html)
+QR code component [link to repo](QR code component/index.html)
