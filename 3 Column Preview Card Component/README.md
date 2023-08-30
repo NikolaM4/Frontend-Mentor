@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live [link] [Add live site URL here](https://nikolam4.github.io/Frontend-Mentor/3%20Column%20Preview%20Card%20Component)
+- Live [link](https://nikolam4.github.io/Frontend-Mentor/3%20Column%20Preview%20Card%20Component)
 
 ## My process
 
