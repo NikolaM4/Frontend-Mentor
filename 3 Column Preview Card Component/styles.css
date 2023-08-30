@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+:root {
+  --orange-color: hsl(31, 77%, 52%);
+  --blue-color: hsl(184, 100%, 22%);
+  --green-color: hsl(179, 100%, 13%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  position: relative;
+  font-size: 15px;
+  height: 100vh;
+}
+
+main {
+  position: absolute;
+  max-width: 850px;
+  display: flex;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h3 {
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-size: 32px;
+  margin: 30px 0;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+}
+
+.block {
+  height: 360px;
+  padding: 40px 40px;
+}
+
+.orange-block {
+  background-color: var(--orange-color);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.orange-block button {
+  color: var(--orange-color);
+}
+
+.orange-block button:hover {
+  background-color: var(--orange-color);
+  color: hsl(0, 0%, 95%);
+}
+
+.blue-block {
+  background-color: var(--blue-color);
+}
+
+.blue-block button {
+  color: var(--blue-color);
+}
+
+.blue-block button:hover {
+  background-color: var(--blue-color);
+  color: hsl(0, 0%, 95%);
+}
+
+.green-block {
+  background-color: var(--green-color);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.green-block button {
+  color: var(--green-color);
+}
+
+.green-block button:hover {
+  background-color: var(--green-color);
+  color: hsl(0, 0%, 95%);
+}
+
+button {
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 75px;
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+  padding: 10px 26px;
+  border: 2px solid hsl(0, 0%, 95%);
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  main {
+    margin: 50px 0;
+    flex-direction: column;
+    width: 90vw;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+  }
+  .block {
+    height: 300px;
+    padding: 40px 50px;
+  }
+
+  button {
+    margin-top: 30px;
+  }
+
+  .block:last-of-type {
+    margin-bottom: 50px;
+  }
+  .orange-block {
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .green-block {
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
